@@ -645,7 +645,7 @@ GameObject:
   - component: {fileID: 137130843}
   - component: {fileID: 137130844}
   m_Layer: 0
-  m_Name: Sherlock Holmes
+  m_Name: Park Ranger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -679,43 +679,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: SHERLOCK
+  nameText: Park Ranger
   nameColor: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
   soundEffect: {fileID: 8300000, guid: 0eb825d5775aa234280e50db9a33cffe, type: 3}
   portraits:
-  - {fileID: 21300000, guid: c27113fd8a09c7c45a856e5d3c843c11, type: 3}
-  - {fileID: 21300000, guid: 67bc1238f72c52b49bd0ad82c79756ac, type: 3}
-  - {fileID: 21300000, guid: b9482ea03e69b5a4aa5e7827da354549, type: 3}
-  - {fileID: 21300000, guid: ed8fca01dcf5bfc4f86bc063889a5013, type: 3}
-  - {fileID: 21300000, guid: 8f5b5b110e73a414eb229eeead86200f, type: 3}
-  - {fileID: 21300000, guid: 03f8d661d54a3a04797d21ab54424abb, type: 3}
-  - {fileID: 21300000, guid: bca405818493a4f4a8fb63a69294d19a, type: 3}
-  - {fileID: 21300000, guid: 779f8bb1130ec974aa263a5e91518085, type: 3}
-  - {fileID: 21300000, guid: ed3f5dd119e6015479f898ab63bab12b, type: 3}
-  - {fileID: 21300000, guid: f233fc32ad198a44880e410c5577da9c, type: 3}
-  - {fileID: 21300000, guid: 7497fd82318972540af8666a234a9685, type: 3}
-  - {fileID: 21300000, guid: 448053637e8df7a42824234afeafa291, type: 3}
-  - {fileID: 21300000, guid: cec88ab3171afc54b92db075974123ea, type: 3}
-  - {fileID: 21300000, guid: 65cda1e3dd1ec8c4bb828adc5bb06c7d, type: 3}
-  - {fileID: 21300000, guid: 96ca91f43a9c1f74b970b59f46047e74, type: 3}
-  - {fileID: 21300000, guid: 5426a8c5c16e04d439b48a522267b236, type: 3}
-  - {fileID: 21300000, guid: 5ba6e5e5e65bc084ba912d2d2d8718df, type: 3}
-  - {fileID: 21300000, guid: 7add35a7d20a5ee41b0bfde9052ddfd6, type: 3}
-  - {fileID: 21300000, guid: d2c8a5a70bd6f11468f4d8ea151dec90, type: 3}
-  - {fileID: 21300000, guid: 3fd077b79b3018945961e206b6435268, type: 3}
-  - {fileID: 21300000, guid: 36652428f3b9f6d41840d56c65aa0d64, type: 3}
-  - {fileID: 21300000, guid: 0815f9b817b27b7499559c635a844bf0, type: 3}
-  - {fileID: 21300000, guid: 75b6e7c8c9b6b4d40ae30dc671be34b7, type: 3}
-  - {fileID: 21300000, guid: 529a0cc84e8173a4d8f60e222d904cdb, type: 3}
-  - {fileID: 21300000, guid: 6384dc397ea803d4abf0d1de10afb1c1, type: 3}
-  - {fileID: 21300000, guid: bd1b1199c415fc642ae13055981f42aa, type: 3}
-  - {fileID: 21300000, guid: 6d5c34a95aa09ce4a9be9f7258a02c0d, type: 3}
-  - {fileID: 21300000, guid: a3710c5af5b436a46b8d0ff4235d1dfe, type: 3}
-  - {fileID: 21300000, guid: e7a0368af3f28b1438c458df61e691c1, type: 3}
-  - {fileID: 21300000, guid: 97171eca7b577c5438e9516b956c042a, type: 3}
-  - {fileID: 21300000, guid: 4cfc408caecceeb45989d991a2dccb3c, type: 3}
-  - {fileID: 21300000, guid: 58f5b79d262f6814bb4ebb44e29efe90, type: 3}
-  - {fileID: 21300000, guid: 84cdbfde1b7d4c24ab7071894480d5db, type: 3}
+  - {fileID: 21300000, guid: ed2988d723f60f04d81b5cca37e4216c, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
@@ -2384,7 +2352,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757828522}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -3.35, z: 0}
+  m_LocalPosition: {x: 0, y: -3.35, z: -2}
   m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_Children:
   - {fileID: 244487393}
@@ -4246,7 +4214,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1390555298}
   selectedCommands:
-  - {fileID: 1390555336}
+  - {fileID: 1390555366}
   variables:
   - {fileID: 1390555396}
   description: 'Example scene from Sherlock: The Game Is On'
@@ -5165,7 +5133,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 137130844}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a3710c5af5b436a46b8d0ff4235d1dfe, type: 3}
+  portrait: {fileID: 21300000, guid: ed2988d723f60f04d81b5cca37e4216c, type: 3}
   offset: 0
   fromPosition: {fileID: 1195464370}
   toPosition: {fileID: 501235100}
@@ -5513,7 +5481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 58
   indentLevel: 0
-  storyText: Hi, {sitting}I'll sit down.
+  storyText: Nice warm fire.
   description: 
   character: {fileID: 137130844}
   portrait: {fileID: 0}
