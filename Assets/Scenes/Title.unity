@@ -522,7 +522,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 40
-  m_Sprite: {fileID: 21300000, guid: 63bf7975446de4f0887eff3390fbb4ea, type: 3}
+  m_Sprite: {fileID: 21300000, guid: bd755d8854691114584ea1b3d58e732d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5612,8 +5612,7 @@ MonoBehaviour:
     y: -350
     width: 1241.8625
     height: 939.1903
-  selectedBlocks:
-  - {fileID: 1815667974}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 'This scene shows how to create simple parallax scrolling effects
@@ -5726,7 +5725,7 @@ MonoBehaviour:
   durationOLD: 0
 --- !u!114 &1815667982
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5745,7 +5744,7 @@ MonoBehaviour:
   sceneNameOLD: 
 --- !u!114 &1815667983
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
