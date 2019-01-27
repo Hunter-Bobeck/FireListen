@@ -5728,19 +5728,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 353.2072, y: -19.718493}
+  scrollPos: {x: 404.79886, y: -10.515099}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 355
-  zoom: 0.9579992
+  zoom: 0.92799926
   scrollViewRect:
     serializedVersion: 2
     x: -350
     y: -350
     width: 1241.8625
     height: 939.1903
-  selectedBlocks:
-  - {fileID: 1815667974}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 'This scene shows how to create simple parallax scrolling effects

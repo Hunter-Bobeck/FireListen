@@ -664,7 +664,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1957234275}
-  m_RootOrder: 1
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &137130844
 MonoBehaviour:
@@ -684,6 +684,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 0eb825d5775aa234280e50db9a33cffe, type: 3}
   portraits:
   - {fileID: 21300000, guid: ed2988d723f60f04d81b5cca37e4216c, type: 3}
+  - {fileID: 21300000, guid: 975add0fb0cd6ce47a61c88353ebb078, type: 3}
   portraitsFace: 1
   setSayDialog: {fileID: 0}
   description: 
@@ -1304,6 +1305,58 @@ MonoBehaviour:
   tagEndSymbol: '{/stat}'
   replaceTagStartWith: '{color=#63c63c}'
   replaceTagEndWith: '{/color}'
+--- !u!1 &474524800
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 474524801}
+  - component: {fileID: 474524802}
+  m_Layer: 0
+  m_Name: Alien
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &474524801
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474524800}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1957234275}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &474524802
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 474524800}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Alien
+  nameColor: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
+  soundEffect: {fileID: 8300000, guid: 0eb825d5775aa234280e50db9a33cffe, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: ef61f2ee401070846a87b51756944a63, type: 3}
+  - {fileID: 21300000, guid: 825a684bf151cef4eaba043a572a50df, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &491891009
 GameObject:
   m_ObjectHideFlags: 0
@@ -2586,6 +2639,57 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!1 &887330518
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887330519}
+  - component: {fileID: 887330520}
+  m_Layer: 0
+  m_Name: Mermaid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &887330519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887330518}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1957234275}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &887330520
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887330518}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Alien
+  nameColor: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
+  soundEffect: {fileID: 8300000, guid: 0eb825d5775aa234280e50db9a33cffe, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: bbc7d895bda729d4591ef3e98cb404d0, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &898034485
 GameObject:
   m_ObjectHideFlags: 0
@@ -3670,7 +3774,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 22410270, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1350
+      value: -1285
       objectReference: {fileID: 0}
     - target: {fileID: 22410270, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3680,13 +3784,17 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -1285
       objectReference: {fileID: 0}
+    - target: {fileID: 22410272, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -1300
+      objectReference: {fileID: 0}
     - target: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -1350
+      value: -1285
       objectReference: {fileID: 0}
     - target: {fileID: 22410278, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 600
+      value: 1300
       objectReference: {fileID: 0}
     - target: {fileID: 22410280, guid: c6289d5f8fa843145a2355af9cb09719, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -4075,19 +4183,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 3955.119, y: 1231.07}
+  scrollPos: {x: 3516.8513, y: 1177.5487}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 280
-  zoom: 0.6700004
+  zoom: 0.9100001
   scrollViewRect:
     serializedVersion: 2
     x: -4071.385
     y: -1729.3505
     width: 5969.446
     height: 2818.8503
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1390555298}
+  selectedCommands:
+  - {fileID: 1390555345}
   variables:
   - {fileID: 1390555396}
   description: 'Example scene from Sherlock: The Game Is On'
@@ -4285,7 +4395,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 137130844}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: ed2988d723f60f04d81b5cca37e4216c, type: 3}
+  portrait: {fileID: 21300000, guid: 975add0fb0cd6ce47a61c88353ebb078, type: 3}
   offset: 0
   fromPosition: {fileID: 1195464370}
   toPosition: {fileID: 501235100}
@@ -4751,6 +4861,59 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1684486360
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1684486361}
+  - component: {fileID: 1684486362}
+  m_Layer: 0
+  m_Name: Pixel Character
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1684486361
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684486360}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1957234275}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1684486362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1684486360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Park Ranger
+  nameColor: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
+  soundEffect: {fileID: 8300000, guid: 0eb825d5775aa234280e50db9a33cffe, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: e8c6a9d330e15f9409e3d03cf08542e7, type: 3}
+  - {fileID: 21300000, guid: 197ff54139fe807488b077fe6627139b, type: 3}
+  - {fileID: 21300000, guid: 26cf07b5e58bccb438a0d2fb1ff73177, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1782167288
 GameObject:
   m_ObjectHideFlags: 0
@@ -4902,6 +5065,7 @@ MonoBehaviour:
   soundEffect: {fileID: 8300000, guid: 3f244b0ea8fc90446baebef62dfd285b, type: 3}
   portraits:
   - {fileID: 21300000, guid: 5e98c954f0d379c4e9d3e6d52ec59e69, type: 3}
+  - {fileID: 21300000, guid: 691756f7aa7aef247ab4722da49aa5c0, type: 3}
   portraitsFace: 2
   setSayDialog: {fileID: 0}
   description: 
@@ -4918,7 +5082,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1957234275}
-  m_RootOrder: 0
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1957234274
 GameObject:
@@ -4947,11 +5111,68 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1880195409}
+  - {fileID: 1976967811}
+  - {fileID: 474524801}
+  - {fileID: 887330519}
   - {fileID: 137130843}
+  - {fileID: 1684486361}
+  - {fileID: 1880195409}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1976967810
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1976967811}
+  - component: {fileID: 1976967812}
+  m_Layer: 0
+  m_Name: Afterlife Person
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &1976967811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976967810}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1957234275}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1976967812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1976967810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: Alien
+  nameColor: {r: 0.25882354, g: 0.25490198, b: 0.2627451, a: 1}
+  soundEffect: {fileID: 8300000, guid: 0eb825d5775aa234280e50db9a33cffe, type: 3}
+  portraits:
+  - {fileID: 21300000, guid: fac4338b1219cef49ab8a9b5eaac1c0b, type: 3}
+  - {fileID: 21300000, guid: 8de399f02be1db04a82368c820fae758, type: 3}
+  - {fileID: 21300000, guid: 171f135328d8ba240a2eab070b6ba898, type: 3}
+  portraitsFace: 1
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1986911339
 GameObject:
   m_ObjectHideFlags: 0
