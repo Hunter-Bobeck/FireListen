@@ -3406,6 +3406,52 @@ MonoBehaviour:
   fireAmountMin: 0
   embersAmountMax: 30
   embersAmountMin: 0
+--- !u!1 &1274782226
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1274782227}
+  - component: {fileID: 1274782228}
+  m_Layer: 0
+  m_Name: fire only view
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1274782227
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274782226}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 6.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2092135321}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1274782228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1274782226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95c387d3e32404bcc91c60318d766bb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  viewSize: 3.2618432
+  primaryAspectRatio: {x: 4, y: 3}
+  secondaryAspectRatio: {x: 2, y: 1}
 --- !u!1 &1275731804
 GameObject:
   m_ObjectHideFlags: 0
@@ -4325,7 +4371,6 @@ GameObject:
   - component: {fileID: 1390555471}
   - component: {fileID: 1390555470}
   - component: {fileID: 1390555469}
-  - component: {fileID: 1390555468}
   - component: {fileID: 1390555467}
   - component: {fileID: 1390555466}
   - component: {fileID: 1390555464}
@@ -4387,7 +4432,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 122
   indentLevel: 0
-  text: Be gone!
+  text: Leave me be.
   description: 
   targetBlock: {fileID: 1390555297}
   hideIfVisited: 0
@@ -4455,11 +4500,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 3563.2322, y: 1009.2305}
+  scrollPos: {x: 6331.508, y: 1229.2423}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 284
-  zoom: 0.76000035
+  zoom: 0.25
   scrollViewRect:
     serializedVersion: 2
     x: -4071.385
@@ -4467,9 +4512,9 @@ MonoBehaviour:
     width: 5969.446
     height: 2818.8503
   selectedBlocks:
-  - {fileID: 1390555348}
+  - {fileID: 1390555298}
   selectedCommands:
-  - {fileID: 1390555317}
+  - {fileID: 1390555336}
   variables:
   - {fileID: 1390555396}
   description: 'Example scene from Sherlock: The Game Is On'
@@ -4513,7 +4558,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2586.8748
     y: -1030.7828
-    width: 152.63153
+    width: 166
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4593,7 +4638,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2428.5742
     y: -1070.6515
-    width: 124.99996
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4639,7 +4684,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2321.3606
     y: -1028.6224
-    width: 172.36836
+    width: 194
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5097,7 +5142,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2567.536
     y: -916.5491
-    width: 123.68417
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5220,7 +5265,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555325
@@ -5263,7 +5308,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555327
@@ -5290,7 +5335,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555328
@@ -5319,7 +5364,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555329
@@ -5347,7 +5392,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555330
@@ -5417,13 +5462,13 @@ MonoBehaviour:
   description: 
   character: {fileID: 887330520}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: e4b04c0e0a27a13449e042ac59c82a74, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555333
@@ -5496,7 +5541,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2307.7046
     y: -918.93414
-    width: 143.42102
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5534,7 +5579,7 @@ MonoBehaviour:
   itemId: 24
   indentLevel: 0
   targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 1390555345}
+  targetBlock: {fileID: 1390555300}
   startLabel:
     stringRef: {fileID: 0}
     stringVal: 
@@ -5655,7 +5700,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 172
   indentLevel: 0
-  text: Be gone!
+  text: Leave me be.
   description: 
   targetBlock: {fileID: 1390555319}
   hideIfVisited: 0
@@ -5828,7 +5873,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2446.5308
     y: -892.2426
-    width: 140.78943
+    width: 158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5888,7 +5933,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2458.977
     y: -995.5315
-    width: 169.73679
+    width: 190
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5962,7 +6007,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555354
@@ -5990,7 +6035,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555355
@@ -6163,7 +6208,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2324.1755
     y: -805.9929
-    width: 177.63153
+    width: 202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6225,7 +6270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 231
   indentLevel: 0
-  text: Be gone!
+  text: Leave me be.
   description: 
   targetBlock: {fileID: 1390555375}
   hideIfVisited: 0
@@ -6309,7 +6354,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2444.1692
     y: -839.6663
-    width: 130.26312
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6437,7 +6482,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2463.0017
     y: -779.3014
-    width: 174.99994
+    width: 198
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -6532,7 +6577,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2584.0068
     y: -803.60785
-    width: 157.89468
+    width: 174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7163,7 +7208,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2345.16
     y: -704.35364
-    width: 122.368385
+    width: 138
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7324,7 +7369,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2483.986
     y: -677.6621
-    width: 120
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7753,7 +7798,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2352.3022
     y: -588.6394
-    width: 177.63153
+    width: 202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7819,7 +7864,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 315
   indentLevel: 0
-  text: Be gone!
+  text: Leave me be.
   description: 
   targetBlock: {fileID: 1390555440}
   hideIfVisited: 0
@@ -7903,7 +7948,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2464.099
     y: -622.3128
-    width: 130.26312
+    width: 146
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8061,7 +8106,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2491.1284
     y: -561.9479
-    width: 174.99994
+    width: 198
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8156,7 +8201,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2612.1335
     y: -586.25433
-    width: 157.89468
+    width: 174
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8456,12 +8501,12 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555452
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8484,12 +8529,12 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555453
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8511,12 +8556,12 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555454
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8539,12 +8584,12 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555455
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8567,12 +8612,12 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555456
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -8595,7 +8640,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555457
@@ -8623,7 +8668,7 @@ MonoBehaviour:
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555463
@@ -8644,13 +8689,13 @@ MonoBehaviour:
   description: 
   character: {fileID: 847917320}
   portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
+  voiceOverClip: {fileID: 8300000, guid: d63f3937a449d0a478cc1ae7333eff73, type: 3}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
   fadeWhenDone: 1
   waitForClick: 1
-  stopVoiceover: 1
+  stopVoiceover: 0
   waitForVO: 0
   setSayDialog: {fileID: 0}
 --- !u!114 &1390555464
@@ -8723,7 +8768,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2382.3015
     y: -482.54187
-    width: 165.78943
+    width: 190
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8744,27 +8789,6 @@ MonoBehaviour:
   - {fileID: 1390555451}
   - {fileID: 1390555450}
   - {fileID: 1390555449}
---- !u!114 &1390555468
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1390555290}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 050fb9e6e72f442b3b883da8a965bdeb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 356
-  indentLevel: 0
-  targetFlowchart: {fileID: 0}
-  targetBlock: {fileID: 0}
-  startLabel:
-    stringRef: {fileID: 0}
-    stringVal: 
-  startIndex: 0
-  callMode: 0
 --- !u!114 &1390555469
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8781,7 +8805,7 @@ MonoBehaviour:
   indentLevel: 0
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 3
+    floatVal: 2
   durationOLD: 0
 --- !u!114 &1390555470
 MonoBehaviour:
@@ -8889,7 +8913,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2521.1277
     y: -455.85034
-    width: 163.15784
+    width: 186
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8902,7 +8926,6 @@ MonoBehaviour:
   - {fileID: 1390555471}
   - {fileID: 1390555470}
   - {fileID: 1390555469}
-  - {fileID: 1390555468}
 --- !u!114 &1390555474
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -8984,7 +9007,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2642.1328
     y: -480.1568
-    width: 146.05258
+    width: 162
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9035,7 +9058,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 345
   indentLevel: 0
-  text: Be gone!
+  text: Leave me be.
   description: 
   targetBlock: {fileID: 1390555477}
   hideIfVisited: 0
@@ -9119,7 +9142,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -2494.0984
     y: -516.21533
-    width: 120
+    width: 134
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10412,6 +10435,7 @@ Transform:
   m_Children:
   - {fileID: 950051499}
   - {fileID: 2072265257}
+  - {fileID: 1274782227}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

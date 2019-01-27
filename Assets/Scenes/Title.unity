@@ -5739,8 +5739,10 @@ MonoBehaviour:
     y: -350
     width: 1241.8625
     height: 939.1903
-  selectedBlocks: []
-  selectedCommands: []
+  selectedBlocks:
+  - {fileID: 1815667974}
+  selectedCommands:
+  - {fileID: 1815667990}
   variables: []
   description: 'This scene shows how to create simple parallax scrolling effects
 
