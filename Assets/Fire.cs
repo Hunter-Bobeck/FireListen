@@ -71,7 +71,7 @@ public class Fire : MonoBehaviour
 		rateFire.constantMax = fireAmount;
 		emFire.rateOverTime = rateFire;
 
-		ParticleSystem.EmissionModule emEmbers = fire.emission;
+		ParticleSystem.EmissionModule emEmbers = embers.emission;
 		ParticleSystem.MinMaxCurve rateEmbers = emEmbers.rateOverTime;
 		rateEmbers.constantMin = fireAmount;
 		rateEmbers.constantMax = fireAmount;
